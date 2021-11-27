@@ -5,7 +5,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
-lunch styx_mido-eng
+lunch styx_mido-user
 export TZ=Asia/Dhaka #put before last build command
 m styx-ota
 
